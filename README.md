@@ -101,8 +101,5 @@ No reutilices estas contraseñas en cuentas personales.
 
 ## Autor
 
-Completar con nombre del estudiante y perfil de GitHub.
+Nathaly Rodriguez | nathaly.rodriguez@ister.edu.ec | NATHALY2006S
 
-## Video de defensa
-
-Añadir aquí el enlace de YouTube no listado o Google Drive. Usa `GUIA_SUSTENTACION.md` como guion.

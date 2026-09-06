@@ -2,13 +2,9 @@
 
 Plataforma de adopción responsable que conecta refugios con familias. Los refugios publican y administran mascotas; los adoptantes exploran, filtran y envían solicitudes con seguimiento.
 
-## Demo en vivo
+## Link de la Aplicacion Web
 
-Pendiente de conectar el repositorio con Vercel. Reemplaza esta línea por `https://patitas-con-hogar.vercel.app` después del despliegue.
-
-## Capturas de pantalla
-
-Añadir en `docs/capturas/` tres capturas después de configurar Supabase: inicio, explorador y panel de usuario.
+Pendiente de conectar el repositorio con Vercel. Reemplaza esta línea por `https://web-patitas-con-hogar.vercel.app/` después del despliegue.
 
 ## Stack tecnológico
 
@@ -54,20 +50,11 @@ Las tres tablas tienen RLS. La lectura de mascotas es pública; las mutaciones s
 ## Variables de entorno
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_SUPABASE_URL= VARIABLE PERSONAL
+NEXT_PUBLIC_SUPABASE_ANON_KEY= VARIABLE PERSONAL
 ```
 
 Nunca se deben subir sus valores reales. `.env.local` ya está incluido en `.gitignore`.
-
-## Credenciales de prueba
-
-Crear después de configurar Supabase y reemplazar estos marcadores:
-
-- Adoptante: `adoptante@ejemplo.com` / `Cambiar123!`
-- Refugio: `refugio@ejemplo.com` / `Cambiar123!`
-
-No reutilices estas contraseñas en cuentas personales.
 
 ## Funcionalidades implementadas
 
@@ -82,10 +69,7 @@ No reutilices estas contraseñas en cuentas personales.
 - [x] Búsqueda y filtro con `useState` y `useMemo`
 - [x] API externa con manejo de error, tiempo límite y caché
 - [x] TypeScript estricto, props tipadas y sin `any`
-- [ ] URL de Vercel (requiere cuenta del estudiante)
-- [ ] Repositorio GitHub
-- [ ] Tres capturas reales
-- [ ] Video de defensa de 15 minutos
+- [ ] Commits y repositorio GitHub
 
 ## Rutas principales
 

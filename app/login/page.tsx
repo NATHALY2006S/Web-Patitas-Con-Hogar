@@ -1,0 +1,1 @@
+import { AuthForm } from '@/components/AuthForm';export default function Login({searchParams}:{searchParams:{error?:string;mensaje?:string}}){return <main className="container-page py-16"><AuthForm mode="login" error={searchParams.error} message={searchParams.mensaje}/></main>}

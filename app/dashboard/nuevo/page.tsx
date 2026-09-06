@@ -1,0 +1,2 @@
+import { PetForm } from '@/components/PetForm';import { createPet } from '@/app/actions/pets';import { getSessionProfile } from '@/lib/auth';import { redirect } from 'next/navigation'
+export default async function NewPet({searchParams}:{searchParams:{error?:string}}){const {profile}=await getSessionProfile();if(profile?.role!=='refugio')redirect('/dashboard');return <><h1 className="mb-7 text-4xl font-black">Publicar una mascota</h1>{searchParams.error&&<p className="mb-4 bg-red-100 p-3">{searchParams.error}</p>}<PetForm action={createPet}/></>}

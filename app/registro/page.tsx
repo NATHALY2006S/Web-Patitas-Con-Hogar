@@ -1,0 +1,1 @@
+import { AuthForm } from '@/components/AuthForm';export default function Register({searchParams}:{searchParams:{error?:string}}){return <main className="container-page py-16"><AuthForm mode="register" error={searchParams.error}/></main>}

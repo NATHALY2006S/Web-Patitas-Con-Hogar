@@ -1,0 +1,4 @@
+import Link from 'next/link'
+import { getSessionProfile } from '@/lib/auth'
+import { logout } from '@/app/actions/auth'
+export async function Navbar(){const {user,profile}=await getSessionProfile();return <header className="border-b border-black/5 bg-cream/90 backdrop-blur"><nav className="container-page flex h-20 items-center justify-between"><Link href="/" className="text-xl font-black">🐾 Patitas con Hogar</Link><div className="flex items-center gap-3 text-sm font-semibold"><Link href="/mascotas">Explorar</Link><Link className="hidden md:inline" href="/razas">Razas</Link>{user?<><Link href="/dashboard">Mi panel</Link><form action={logout}><button className="btn-secondary !px-4 !py-2">Salir</button></form><span className="hidden text-black/50 md:inline">{profile?.full_name}</span></>:<><Link href="/login">Ingresar</Link><Link className="btn !px-4 !py-2" href="/registro">Crear cuenta</Link></>}</div></nav></header>}

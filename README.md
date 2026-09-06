@@ -83,7 +83,7 @@ No reutilices estas contraseñas en cuentas personales.
 - [x] API externa con manejo de error, tiempo límite y caché
 - [x] TypeScript estricto, props tipadas y sin `any`
 - [ ] URL de Vercel (requiere cuenta del estudiante)
-- [ ] 15+ commits históricos y repositorio GitHub
+- [ ] Repositorio GitHub
 - [ ] Tres capturas reales
 - [ ] Video de defensa de 15 minutos
 
